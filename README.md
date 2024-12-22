@@ -50,7 +50,7 @@ The dataset is organized in the following structure:
 ## 4. Workflow Diagram
 Approaches to Modeling SII as the Target Variable
 1. Multiclass classification (treat sii as a nominal categorical variable without considering the order)
-2. Regression (ignore the discrete nature of categories and treat sii as a continuous variable, then round prediction). We can use `PCIAT-PCIAT_Total` as a continuous target variable, and implement regression on `PCIAT-PCIAT_Total` and then map predictions to sii categories.
+2. Regression (use `PCIAT-PCIAT_Total` as a continuous target variable, and implement regression on `PCIAT-PCIAT_Total` and then map predictions to sii categories.)
 
 **In this repo, the primary focus will be on classification models to directly predict SII categories.**
 
