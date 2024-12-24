@@ -39,7 +39,10 @@ The dataset is organized in the following structure:
 
 ## 3 Data Analyst
 <p align="center">
-<img src="images/label_tables.png " width="850"> 
+<img src="images/label1.png " width="850"> 
+</p>
+<p align="center">
+<img src="images/label2.png " width="850"> 
 </p>
 
 - In this scenario, the training dataset includes missing labels (sii). With our approach, we incorporate these unlabeled data points into the imputation process to better capture relationships between features, enhancing the imputation's accuracy and consistency.
